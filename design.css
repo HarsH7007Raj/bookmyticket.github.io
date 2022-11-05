@@ -1,0 +1,277 @@
+body {
+    margin: 0%;
+    background-color: rgb(236, 236, 241);
+    /* background: linear-gradient(to bottom,236, 236, 241); */
+}
+
+#head a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10px;
+
+}
+
+#head ul {
+    list-style-type: none;
+    background-color: rgb(78, 78, 116);
+    padding-top: 3px;
+    padding-bottom: 18px;
+    text-align: right;
+    padding-right: 89px;
+}
+
+
+#head {
+    margin-top: -16px;
+}
+
+#head ul li {
+    display: inline;
+}
+
+#head ul li a {
+    display: inline-flex;
+    text-align: center;
+    margin-right: 22px;
+    margin-top: 10px;
+}
+
+#head ul li a:hover {
+    background-color: rgb(205, 205, 212);
+    border-radius: 31px;
+    color: black;
+}
+
+.paragraph{
+    text-align: center;
+    color: rgb(101, 98, 98);
+    font-size: 23px;
+}
+
+.animate-text{
+    color: rgb(78, 78, 116);
+    display: block;
+    text-align: center;
+    padding: 0px 20px;
+    height: 60px;
+    overflow: hidden;
+    background: rgb(236, 236, 241);
+}
+
+.line{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line:first-child{
+    animation: anim 12s infinite;
+}
+
+@keyframes anim{
+    0%{
+        margin-top: 0px;
+    }
+    10%{
+        margin-top: -60px;
+    }
+    20%{
+        margin-top: -120px;
+    }
+    30%{
+        margin-top: -180px;
+    }
+    40%{
+        margin-top: -240px;
+    }
+    50%{
+        margin-top: -300px;
+    }
+    60%{
+        margin-top: -240px;
+    }
+    70%{
+        margin-top: -180px;
+    }
+    80%{
+        margin-top: -120px;
+    }
+    90%{
+        margin-top: -60px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.swiper{
+    width: 1200px;
+    height: 500px;
+}
+
+.swiper-slide img{
+    /* display: inline-flex; */
+    width: 100%;
+    height: 100%;
+}
+
+.destination{
+    margin-top: 0px;
+    display: inline-flex;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.designation-cont{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* display: inline-flex; */
+}
+
+.designation-cont img{
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin-left: 100px;
+    /* display: inline-flex; */
+}
+
+.designation-cont p{
+    font-size: 20px;
+    margin-left: 100px;
+    /* display: block; */
+}
+
+.point{
+    display: inline-flex;
+    margin-left: 360px;
+    border: 4px solid rgb(78, 78, 116);
+}
+
+.point pre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer{
+    display: inline-flex;
+    margin-left: 240px;
+}
+
+.footer h4{
+    margin-left: 170px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(101, 98, 98);
+    padding-left: 118px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer ul{
+    list-style-type: none;
+    /* background-color: rgb(213, 213, 215); */
+}
+
+.selector{
+    display: inline-flex;
+
+}
+
+.selector a img{
+    padding-left: 150px;
+}
+
+.ttr h1{
+    margin-left: 150px;
+}
+.selector img{
+    height: 60px;
+    width: 60px;
+}
+
+#submit1{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    width: 130px;
+    background-color: rgb(78, 78, 116);
+    border-color: rgb(78, 78, 116);
+    color: azure;
+}
+
+.sel {
+    margin-left: 40px;
+    color: rgb(65, 65, 116);
+}
+
+.selestate{
+    color: rgb(65, 65, 116);
+}
+
+#hotelback {
+    display: block;
+    margin-left: 50px;
+    margin-top: -2px;
+    height: 300px;
+    width: 1150px;
+    opacity: 0.7;
+}
+
+.stateselector{
+    margin-left: 450px;
+}
+
+
+#state {
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    color: rgb(246, 246, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: rgb(78, 78, 116);
+}
+
+#date{
+    background-color: rgb(78, 78, 116);
+    margin-left: 30px;
+    color: azure;
+}
+
+#submit{
+    margin-left: 560px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    width: 130px;
+    background-color: rgb(78, 78, 116);
+    border-color: rgb(78, 78, 116);
+    color: azure;
+}
+
+.ttr{
+    margin-top: -20px;
+    display: inline;
+}
+
+#ttt{
+    margin-left: 460px;
+    margin-top: 30px;
+}

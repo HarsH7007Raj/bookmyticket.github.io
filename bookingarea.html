@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Area</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div id="head">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bookingarea.html">Booking Area</a></li>
+            <li><a href="ticket.html">Tickets</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="movie.jpg"></div>
+                <div class="swiper-slide"><img src="plane.jpg"></div>
+                <div class="swiper-slide"><img src="travel.jpg"></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+    </div>
+
+    <h2 class="sel">Select Your Booking Choice</h2>
+    <div class="selector">
+        <a href="hotel.html"><img src="hotel.webp" alt="Loading...."></a>
+        <a href="homestay.html"><img src="Homestay.png" alt="Loading...."></a>
+        <a href="flight.html"><img src="flight2.png" alt="Loading...."></a>
+        <a href="train.html"><img src="train.png" alt="Loading...."></a>
+        <a href="bus.html"><img src="bus2.png" alt="Loading...."></a>
+    </div>
+
+<hr>
+    
+    <div class="footer">
+        <div classs="foot">
+            <h4>Extra</h4>
+            <ul>
+                <li><a href="#">Gamming Zone</a></li>
+                <li><a href="#">Plan ahead</a></li>
+                <li><a href="#">Working area</a></li>
+                <li><a href="#">sea area</a></li>
+                <li><a href="#">Pet Friendly</a></li>
+                <li><a href="#">flixible Timming</a></li>
+            </ul>
+        </div>
+
+        <div classs="foot">
+            <h4>Fun Zone</h4>
+            <ul>
+                <li><a href="#">Play and win 5% off</a></li>
+                <li><a href="#">Play and win 10% off</a></li>
+                <li><a href="#">Play and win 15% off</a></li>
+                <li><a href="#">Play and win 20% off</a></li>
+                <li><a href="#">Play and win 25% off</a></li>
+                <li><a href="#">Play and win 50% off</a></li>
+            </ul>
+        </div>
+
+        
+    </div>
+
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>
